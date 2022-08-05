@@ -38,6 +38,7 @@ header {
 
 nav {
     order: 2;
+    align-items: flex-end;
 }
 
 .nav_links {
