@@ -85,60 +85,24 @@ nav {
 
 body{
     background-color: white;
-    display: flex;
-    flex-direction: column;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.success{
     height: 40rem;
-}
-
-.container h1{
-    font-weight: 100;
-    text-align: center;
-}
-
-.row{
-    margin: 1rem;
-}
-
-.form-label{
-    font-weight: 300;
-}
-
-.submit{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 1rem;
+    align-items: center;
 }
 
-.submit button {
-    padding: 5px 20px;
-    border: 2px #657C9A solid;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3x ease 0s;
-    color: white;
-    background-color: #657C9A;
-    box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
-    -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
-    -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+.success h1{
+    font-weight: 300;
+    margin-bottom: 5%;
 }
 
-.submit button:hover {
-    background-color: #244B74;
-    border: 2px #244B74 solid;
-    color: white;
-    box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
-    -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
-    -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
-}
-
-.submit button:after{
-    background-color: #244B74;
+.success h3{
+    font-weight: 300;
+    font-size: 24px;
 }
 
 /* footer style */
